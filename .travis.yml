@@ -5,21 +5,15 @@
 language: c
 # To build on OSX, switch the previous line to
 # language: objective-c
-script:
-  - pwd
-  - ./travis-tool.sh run-tests; #cd ../fakepackage2; ../travis-tool.sh run-tests;
+script: ./travis-tool.sh run-tests
 
 
 before_install:
-    - cd goodpackage; #cd $REPO_TO_TEST
+    - cd goodpackage
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
-#    - cp travis-tool.sh goodpackage; #cp travis-tool.sh $REPO_TO_TEST
-    - pwd
-    - ls
     - ./travis-tool.sh bootstrap
 install:
-    - pwd
     - ./travis-tool.sh install_deps
 
 # Configuration options below this line are suggested options.
