@@ -36,9 +36,9 @@ branches:
     except:
     - /-expt$/
 
-env:
-  matrix:
-        - REPO_TO_TEST=goodpackage
+#env:
+#  matrix:
+#        - REPO_TO_TEST=goodpackage
 #        - REPO_TO_TEST=badpackage
-
+#
 
