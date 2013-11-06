@@ -1,4 +1,4 @@
-Package: fakepackage1
+Package: goodpackage
 Title: Test package for r-travis (http://github.com/craigcitro/r-travis)
 Version: 0.1
 Author: Craig Citro <craigcitro@google.com>
