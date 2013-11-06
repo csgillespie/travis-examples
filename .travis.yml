@@ -6,7 +6,7 @@ language: c
 # To build on OSX, switch the previous line to
 # language: objective-c
 script:
-  - ../travis-tool.sh run-tests; #cd ../fakepackage2; ../travis-tool.sh run-tests;
+  - ./travis-tool.sh run-tests; #cd ../fakepackage2; ../travis-tool.sh run-tests;
 
 
 before_install:
@@ -16,7 +16,7 @@ before_install:
     - cd $REPO_TO_TEST
     - ./travis-tool.sh bootstrap
 install:
-    - ../travis-tool.sh install_deps
+    - ./travis-tool.sh install_deps
 
 # Configuration options below this line are suggested options.
 notifications:
