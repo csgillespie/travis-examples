@@ -10,12 +10,12 @@ script:
 
 
 before_install:
+    - cd goodpackage; #cd $REPO_TO_TEST
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
-    - cp travis-tool.sh goodpackage; #cp travis-tool.sh $REPO_TO_TEST
-    - cd goodpackage; #cd $REPO_TO_TEST
-    - echo pwd
-    - echo ls
+#    - cp travis-tool.sh goodpackage; #cp travis-tool.sh $REPO_TO_TEST
+    - pwd
+    - ls
     - ./travis-tool.sh bootstrap
 install:
     - ./travis-tool.sh install_deps
