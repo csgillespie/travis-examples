@@ -7,13 +7,13 @@ language: c
 # language: objective-c
 script: ./travis-tool.sh run_tests
 before_install:
-    - cd issb
+    - cd $REPO_TO_TEST
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
     - ./travis-tool.sh bootstrap
 install:
     - ./travis-tool.sh install_deps
-#    - ./travis-tool.sh github_package 
+
 # Configuration options below this line are suggested options.
 notifications:
     email:
@@ -27,3 +27,9 @@ notifications:
 branches:
     except:
     - /-expt$/
+
+env:
+  matrix:
+        - REPO_TO_TEST=issb
+#        - REPO_TO_TEST=badpackage
+#
