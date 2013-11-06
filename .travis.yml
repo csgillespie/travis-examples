@@ -31,7 +31,7 @@ branches:
     - /-expt$/
 
 env:
-  global:
+  matrix:
         - REPO_TO_TEST=fakepackage1
         - REPO_TO_TEST=fakepackage2
 
