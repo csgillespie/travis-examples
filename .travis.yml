@@ -30,3 +30,7 @@ notifications:
 branches:
     except:
     - /-expt$/
+
+env:
+  global:
+        - REPO_TO_TEST=repo1
