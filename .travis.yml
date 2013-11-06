@@ -12,8 +12,8 @@ script:
 before_install:
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
-    - cp travis-tool.sh $REPO_TO_TEST
-    - cd $REPO_TO_TEST
+    - cp travis-tool.sh goodpackage; #cp travis-tool.sh $REPO_TO_TEST
+    - cd goodpackage; #cd $REPO_TO_TEST
     - echo pwd
     - echo ls
     - ./travis-tool.sh bootstrap
