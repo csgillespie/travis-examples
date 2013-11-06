@@ -12,9 +12,9 @@ script:
 before_install:
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
-    - cd fakepackage1
     - ../travis-tool.sh bootstrap
 install:
+    - cd fakepackage1
     - ../travis-tool.sh install_deps
 #    - ./travis-tool.sh github_package 
 # Configuration options below this line are suggested options.
