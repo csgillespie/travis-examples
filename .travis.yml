@@ -32,4 +32,5 @@ env:
   matrix:
         - REPO_TO_TEST=issb
         - REPO_TO_TEST=badpackage
+        - REPO_TO_TEST=goodpackage
 #
