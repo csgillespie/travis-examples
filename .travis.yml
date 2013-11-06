@@ -33,7 +33,7 @@ branches:
 
 env:
   matrix:
-        - REPO_TO_TEST=fakepackage1
-        - REPO_TO_TEST=fakepackage2
+        - REPO_TO_TEST=goodpackage
+        - REPO_TO_TEST=badpackage
 
 
