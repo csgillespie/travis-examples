@@ -3,7 +3,7 @@ Title: Test package
 Version: 0.1
 Author: Colin Gillespie 
 Maintainer: Colin Gillespie <csgillespie@gmail.com>
-Depends: R (>= 3.0.1), ggplot2
+Depends: R (>= 3.0.1)
 License: Apache License (== 2.0)
 Description: This is just a fake package. It is intentionally broken. Based on
              Craig Citro's test fakepackage for r-travis.
@@ -13,3 +13,4 @@ Suggests:
     testthat
 Collate:
     'fakepackage.r'
+    'non_existent_file.r'
