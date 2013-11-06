@@ -1,0 +1,31 @@
+Package: issb
+Type: Package
+Title: R code associated with the book chapter "Simulation of
+    stochastic kinetic models"
+Version: 0.13.1
+Date: 2013-10-31
+Author: Colin Gillespie
+Maintainer: Colin Gillespie <csgillespie@gmail.com>
+Description: This repository contains the latex source,
+    graphics and R code used in book chapter in "In silico
+    Systems Biology: A systems-based approach to
+    understanding biological processes" published by Humana
+    Press. This book is part of the `Methods in Molecular
+    Biology` series. The authors of this chapter are Andrew
+    Golightly and Colin Gillespie.
+Depends:
+    deSolve,
+    MASS,
+    parallel
+License: GPL
+Collate:
+    'create_model.R'
+    'deterministic.R'
+    'diffusion.R'
+    'gillespie.R'
+    'lna.R'
+    'pleap.R'
+    'discretise.R'
+    'multiple_sim.R'
+    'diffusion_tau_leap.R'
+    'tau_leap.R'

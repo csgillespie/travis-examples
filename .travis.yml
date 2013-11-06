@@ -9,7 +9,7 @@ script: ./travis-tool.sh run-tests
 
 
 before_install:
-    - cd goodpackage
+    - cd issb
     - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
     - chmod 755 ./travis-tool.sh
     - ./travis-tool.sh bootstrap

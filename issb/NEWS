@@ -1,0 +1,14 @@
+== Version 0.13.1 ==
+ * Add tau_leap methods
+ * travis build
+
+== Version 0.12 ==
+    * Bug fix: Added absorbing barrier in the pleap method.
+    * Tidied up parallel code
+
+== Version 0.11 ==
+    * Bug fix: Reflecting barriers for the diffusion approximation
+    * Bug fix: multiple_sims function didn't return all species
+
+== Version 0.1 ==
+    Initial release
