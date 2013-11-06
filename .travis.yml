@@ -15,7 +15,7 @@ before_install:
     - ./travis-tool.sh bootstrap
 install:
     - cd $REPO_TO_TEST
-    - ./travis-tool.sh install_deps
+    - ../travis-tool.sh install_deps
 
 # Configuration options below this line are suggested options.
 notifications:
