@@ -1,0 +1,3 @@
+##Dummy .travis file
+language: c
+script: cd . 
