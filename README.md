@@ -1,4 +1,4 @@
-r-travis-examples
+r-travis examples
 =================
 
 This repository contains example [r-travis](https://github.com/craigcitro/r-travis) set-ups. Each branch 
