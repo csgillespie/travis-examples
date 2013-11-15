@@ -1,4 +1,4 @@
-r-Travis-examples
+r-travis-examples
 =================
 
 This repository contains example [r-travis](https://github.com/craigcitro/r-travis) set-ups. Each branch 
@@ -11,6 +11,7 @@ illustrates a different travis scenario.
  * [XML dependency](https://github.com/csgillespie/travis-examples/tree/travis-xml)
  * [rJava dependency](https://github.com/csgillespie/travis-examples/tree/travis-rjava)
  * [RODBC dependency](https://github.com/csgillespie/travis-examples/tree/travis-RODBC)
+ * [Bioconductor example](https://github.com/csgillespie/travis-examples/tree/travis-bioconductor)
  * [Compiling](https://github.com/csgillespie/travis-examples/tree/travis-knitr) (only) knitr documents, i.e. you are not building a package.
 
  
