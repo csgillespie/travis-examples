@@ -11,6 +11,7 @@ illustrates a different travis scenario.
  * [XML dependency](https://github.com/csgillespie/travis-examples/tree/travis-xml)
  * [rJava dependency](https://github.com/csgillespie/travis-examples/tree/travis-rjava)
  * [RODBC dependency](https://github.com/csgillespie/travis-examples/tree/travis-RODBC)
+ * [github dependency](https://github.com/csgillespie/travis-examples/tree/travis-github)
  * [Bioconductor example](https://github.com/csgillespie/travis-examples/tree/travis-bioconductor)
  * Working [x-server](https://github.com/csgillespie/travis-examples/tree/travis-x-server)
  * [Compiling](https://github.com/csgillespie/travis-examples/tree/travis-knitr) (only) knitr documents, i.e. you are not building a package.
