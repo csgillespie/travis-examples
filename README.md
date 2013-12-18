@@ -1,3 +1,6 @@
+Warning: over the next couple of hours, I'm going to rearrange this repo to use subtree. So come back then!
+
+
 r-travis examples
 =================
 
