@@ -16,6 +16,7 @@ illustrates a different travis scenario.
 * [Bioconductor example](https://github.com/csgillespie/travis-examples/tree/bioconductor)
 * Working [x-server](https://github.com/csgillespie/travis-examples/tree/x-server)
 * [Compiling](https://github.com/csgillespie/travis-examples/tree/knitr) (only) knitr documents, i.e. you are not building a package.
+* Installing from [CTAN](https://github.com/csgillespie/travis-examples/tree/ctan)
 
 
 ### Submitting examples

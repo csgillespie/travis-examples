@@ -1,0 +1,5 @@
+\documentclass{article}
+\usepackage{hologo}
+\begin{document}
+  .
+\end{document}
