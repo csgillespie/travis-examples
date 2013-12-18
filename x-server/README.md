@@ -1,6 +1,6 @@
 Example: Tests that require a working X-server
 ==============================================
-[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=travis-x-server)](https://travis-ci.org/csgillespie/travis-examples)
+[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=x-server)](https://travis-ci.org/csgillespie/travis-examples)
 
 
 If your package tests require a virtual framebuffer, then add the following lines to `.travis.yml`
