@@ -1,0 +1,9 @@
+%\VignetteIndexEntry{example}
+\documentclass[]{scrreprt}
+
+\begin{document}
+
+\section{My first vignette}
+
+
+\end{document}
