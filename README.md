@@ -19,9 +19,31 @@ illustrates a different travis scenario.
 * Installing from [CTAN](https://github.com/csgillespie/travis-examples/tree/ctan)
 
 
-### Submitting examples
+#### Pull request for existing examples
 
-Pull requests are welcome. 
+To edit an existing example:
 
-* To edit an existing example, please clone the relevant branch. 
-* To create a new example, clone the master. I will then use git subtree to create the associated branch.
+1. Clone the relevant branch
+1. Submit pull request as usual
+
+I will then use git subtree to merge the changes from the branch to master
+
+#### Adding a new example
+
+1. Clone an existing example that matches your example
+1. Ensure that your branch passes travis-ci
+1. Clone the master and copy your branch to a directory
+1. Submit pull request
+
+
+
+
+
+
+
+
+
+
+
+
+
