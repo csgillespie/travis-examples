@@ -1,6 +1,6 @@
 Example: XML dependencies
 ==========================
-[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=travis-xml)](https://travis-ci.org/csgillespie/travis-examples)
+[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=xml)](https://travis-ci.org/csgillespie/travis-examples)
 
 This branch illustrates having an `XML` dependency. The key line is in the `install` section:
 
