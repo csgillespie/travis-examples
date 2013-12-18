@@ -8,3 +8,8 @@ if ! diff dirs-in-readme dirs-in-repo; then
   echo "$0: Please include a reference to each example in the README.md" >> /dev/stderr
   exit 1
 fi
+
+if find * -mindepth 1 -name README.md -exec grep "Build Status" \{\} \+ | egrep -v "^([^/]+)/.*branch=\1"; then
+  echo "$0: Please ensure correctness of the build status icon in all sub-README.md" >> /dev/stderr
+  exit 1
+fi
