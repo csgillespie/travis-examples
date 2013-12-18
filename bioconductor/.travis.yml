@@ -1,0 +1,20 @@
+language: c
+# To build on OSX, switch the previous line to
+# language: objective-c
+
+script: ./travis-tool.sh run_tests
+
+before_install:
+    - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
+    - chmod 755 ./travis-tool.sh
+    - ./travis-tool.sh bootstrap
+
+##Need to manually add all dependencies
+##In this package, we require Mfuzz
+install:
+    - Rscript -e "source('http://bioconductor.org/biocLite.R');
+                  biocLite();
+                  biocLite('Mfuzz')"
+    - ./travis-tool.sh install_deps
+
+
