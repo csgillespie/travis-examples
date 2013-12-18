@@ -1,5 +1,6 @@
 r-travis examples
 =================
+[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=master)](https://travis-ci.org/csgillespie/travis-examples)
   
   This repository contains example [r-travis](https://github.com/craigcitro/r-travis) set-ups. Each branch 
 illustrates a different travis scenario.
