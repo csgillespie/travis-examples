@@ -1,0 +1,12 @@
+Package: goodpackage
+Title: Test package
+Version: 0.1
+Author: Colin Gillespie
+Maintainer: Colin Gillespie <csgillespie@gmail.com>
+Imports: qdapDictionaries
+License: Apache License (== 2.0)
+Description: This is just a fake package. Based on Craig Citro's test
+    fakepackage for r-travis.
+Collate:
+    'fakepackage.r'
+    'goodpackage-package.R'
