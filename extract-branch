@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+DIR="$1"
+
+if [ -z "$DIR" ]; then
+  echo "Syntax: $0 <subdirectory>" >> /dev/stderr
+  exit 1
+fi
+
+git subtree push --prefix=$DIR origin $DIR
