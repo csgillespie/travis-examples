@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+sed -n -r '/\/csgillespie\/travis-examples\/tree\// {s/^.*\/csgillespie\/travis-examples\/tree\/([^)]+).*$/\1/;p}' README.md | sort > dirs-in-readme
+find * -maxdepth 0 -type d | sort > dirs-in-repo
+if ! diff dirs-in-readme dirs-in-repo; then
+  echo "$0: Please include a reference to each example in the README.md" >> /dev/stderr
+  exit 1
+fi

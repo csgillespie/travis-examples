@@ -1,3 +1,4 @@
 ##Dummy .travis file
 language: c
-script: cd . 
+script:
+  - ./check-readme
