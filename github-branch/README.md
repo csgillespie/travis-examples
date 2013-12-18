@@ -1,6 +1,6 @@
 Example: github branch
 ==========================
-[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=travis-github-branch)](https://travis-ci.org/csgillespie/travis-examples)
+[![Build Status](https://travis-ci.org/csgillespie/travis-examples.png?branch=github-branch)](https://travis-ci.org/csgillespie/travis-examples)
 
 The script illustrates installing a package from a github branch. The key line is:
 ```yml
