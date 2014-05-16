@@ -6,8 +6,7 @@ This branch illustrates a package with Bioconductor dependencies. The key lines 
 
 ```yml
 install:
-    - Rscript -e "source('http://bioconductor.org/biocLite.R');
-                  biocLite();
-                  biocLite('Mfuzz')"
+    - ./travis-tool.sh bioc_install Mfuzz
+    - ./travis-tool.sh install_deps
 ```
 
