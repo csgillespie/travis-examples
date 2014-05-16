@@ -12,9 +12,7 @@ before_install:
 ##Need to manually add all dependencies
 ##In this package, we require Mfuzz
 install:
-    - Rscript -e "source('http://bioconductor.org/biocLite.R');
-                  biocLite();
-                  biocLite('Mfuzz')"
+    - ./travis-tool.sh bioc_install Mfuzz
     - ./travis-tool.sh install_deps
 
 
